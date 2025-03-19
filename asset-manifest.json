@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/wanlow/static/css/main.040191c3.css",
+    "main.js": "/wanlow/static/js/main.c987229b.js",
+    "static/js/453.8a562b2b.chunk.js": "/wanlow/static/js/453.8a562b2b.chunk.js",
+    "static/media/picnic.png": "/wanlow/static/media/picnic.508ca87ddc1948bc8050.png",
+    "static/media/group4.png": "/wanlow/static/media/group4.632d513cce347ebc5235.png",
+    "static/media/boy.png": "/wanlow/static/media/boy.077121656ea906c1b5f8.png",
+    "static/media/image3.png": "/wanlow/static/media/image3.f3ff5e579e94decd4ad0.png",
+    "static/media/kids.jpg": "/wanlow/static/media/kids.67053649fddaba419261.jpg",
+    "static/media/image2.png": "/wanlow/static/media/image2.f196bc57f4bfacbe1fc1.png",
+    "static/media/image1.png": "/wanlow/static/media/image1.ff5bdfaa24f50a6341bf.png",
+    "static/media/image4.png": "/wanlow/static/media/image4.c81f08731c3f032487c7.png",
+    "static/media/background2.png": "/wanlow/static/media/background2.2e5e7797af85898c5f63.png",
+    "static/media/footer_logo.png": "/wanlow/static/media/footer_logo.a2c900073c9a8982e1e2.png",
+    "static/media/background1.png": "/wanlow/static/media/background1.0f0deb2e0f498f30ed61.png",
+    "static/media/drawing.png": "/wanlow/static/media/drawing.430bcf3b01ef15d82909.png",
+    "static/media/group781.png": "/wanlow/static/media/group781.07b41285231229249a8e.png",
+    "static/media/backpack.svg": "/wanlow/static/media/backpack.7079b60ea0c4bbedbd1c4631822b29f2.svg",
+    "static/media/person.svg": "/wanlow/static/media/person.fce20a4fe7ffd4946930af9f30aec41e.svg",
+    "index.html": "/wanlow/index.html",
+    "static/media/iconStar.svg": "/wanlow/static/media/iconStar.495ef012658de4fb162e2d7641e680ad.svg",
+    "main.040191c3.css.map": "/wanlow/static/css/main.040191c3.css.map",
+    "main.c987229b.js.map": "/wanlow/static/js/main.c987229b.js.map",
+    "453.8a562b2b.chunk.js.map": "/wanlow/static/js/453.8a562b2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.040191c3.css",
+    "static/js/main.c987229b.js"
+  ]
+}
