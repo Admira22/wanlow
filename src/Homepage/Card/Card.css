@@ -1,0 +1,76 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+}
+
+/*TODO*/
+/*if I have n cards in the zero and even places, we have two extras each, one in the odd place*/
+.addition {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.imageOfCard {
+    height: 180px;
+    padding: 20px;
+}
+
+.content {
+    padding: 15px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: #483729;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    color: #483729;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.number {
+    font-size: 102px;
+    color: #7EC6BC;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    -webkit-text-stroke: 1px #FFFFFF;
+    margin-top: -100px;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 300px;
+    }
+}

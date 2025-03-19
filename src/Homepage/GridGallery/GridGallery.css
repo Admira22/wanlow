@@ -1,0 +1,174 @@
+.waveBackground {
+    background-color: #EAE8E7;
+}
+
+.imageContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-top: 70px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 519"><path d="M0 50C200 80 400 90 600 80C800 70 1000 50 1200 50C1400 50 1600 80 1800 90C2000 100 2200 80 2400 70V519H0V50Z" fill="%23D5EAE7"/></svg>') no-repeat bottom left / 300% auto;
+}
+
+.headingContainer {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.heading {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #483729;
+}
+
+.descriptionText {
+    font-size: 18px;
+    color: #483729;
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-bottom: 20px;
+}
+
+.imageItem {
+    position: relative;
+}
+
+.imageOfGallery {
+    height: auto;
+    border-radius: 8px;
+}
+
+.image1 {
+    margin-top: -40px;
+    margin-left: -185px;
+    position: relative;
+}
+
+.image2 {
+    margin-right: 200px;
+}
+
+.image3 {
+    margin-top: -200px;
+    margin-left: 100px;
+
+}
+
+.image4 {
+    margin-right: 200px;
+}
+
+.textBox {
+    position: absolute;
+    top: 345%;
+    left: 35%;
+    transform: translate(-10%, -20%);
+    background-color: #f8f8f8;
+    width: 350px;
+    max-width: 90%;
+    height: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    text-align: center;
+}
+
+.textBox p {
+    font-size: 18px;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #483729;
+    padding: 15px;
+}
+
+.textBoxButton {
+    padding: 10px 20px;
+    background-color: #7EC6BC;
+    color: #483729;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 1px;
+}
+
+.textBoxButton:hover {
+    background-color: #689c94;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .imageContainer {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        padding: 20px 4vw;
+    }
+
+    .headingContainer {
+        grid-column: span 1;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .heading {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .descriptionText {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .imageOfGallery {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+    }
+
+    .image1, .image2, .image3, .image4 {
+        margin: 0;
+    }
+
+    .textBox {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 95%;
+        max-width: 100%;
+        padding: 15px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: #f8f8f8;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .textBox p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .textBoxButton {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-top: 15px;
+        background-color: #7EC6BC;
+        color: #483729;
+    }
+
+    .textBoxButton:hover {
+        background-color: #689c94;
+        color: #FFFFFF;
+    }
+}

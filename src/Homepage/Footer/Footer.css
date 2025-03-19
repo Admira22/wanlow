@@ -1,0 +1,234 @@
+.footerWrapper {
+    background-color: #EAE8E7;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 519"><path d="M0 50C200 80 400 90 600 80C800 70 1000 50 1200 50C1400 50 1600 80 1800 90C2000 100 2200 80 2400 70V519H0V50Z" fill="%23D5EAE7"/></svg>') no-repeat  bottom left / 150% auto;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    padding-left: 20px;
+    margin-left: 123px;
+    gap: 33px;
+    position: relative;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.iconWrapper i {
+    font-size: 20px;
+    color: #483729;
+}
+
+.iconWrapper:hover, .iconWrapper:hover i {
+    background-color: #689c94;
+    color: #FFFFFF;
+}
+.icon {
+    width: 17px;
+    height: 15px;
+}
+
+.iconWrapper:hover .icon {
+    color: #FFFFFF;
+}
+
+.middleContainer {
+    flex: 1;
+    text-align: left;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.rightContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    margin-right: 89px;
+}
+
+.rightImage {
+    height: auto;
+    margin-top: 70px;
+}
+
+.listContainer {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 42px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.list1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.listItem {
+    font-size: 16px;
+    white-space: nowrap;
+    color: #483729;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.listItem:hover {
+    color: #DB7623;
+}
+
+.listItem1 {
+    font-size: 16px;
+    white-space: nowrap;
+    color: #483729;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+    cursor: pointer;
+}
+.text {
+    font-size: 30px;
+    color: #483729;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    margin-left: -250px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.input {
+    padding: 12px 14px;
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 12px;
+    border: 1px solid #483729;
+    border-radius: 5px;
+    opacity: 1;
+    background-color: transparent;
+    color: #998f88;
+    font-size: 16px;
+    margin-left: -350px;
+    margin-right: 10px;
+}
+
+.input:hover::placeholder {
+    color: #483729;
+}
+
+.signInButton {
+    padding: 12px 26px;
+    background-color: #7EC6BC;
+    color: #483729;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 1px;
+}
+
+.signInButton:hover {
+    background-color: #689c94;
+    color: #FFFFFF;
+}
+
+.buttonText {
+    font-size: 18px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        background-size: 350% auto;
+        background-position: top center;
+    }
+
+    .leftContainer {
+        align-items: center;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .rightContainer {
+        justify-content: center;
+        padding-right: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .middleContainer {
+        margin-top: 20px;
+    }
+
+    .list1 {
+        flex-direction: row;
+        margin-left: 35px;
+    }
+
+    .text {
+        margin-left: 20px;
+    }
+
+    .input {
+        margin-left: 30px;
+    }
+
+    .rightImage {
+        display: block;
+        margin: 0 auto;
+    }
+}

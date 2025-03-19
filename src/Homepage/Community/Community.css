@@ -1,0 +1,143 @@
+.communityContainer {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EAE8E7;
+}
+
+.heading {
+    font-size: 50px;
+    color: #483729;
+    margin-bottom: 20px;
+}
+
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.commentsContainer, .imagesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.commentGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 80%;
+}
+
+.communityImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.commentItem {
+    background-color: transparent;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.stars {
+    font-size: 18px;
+}
+
+.starIcon {
+    padding-left: 10px;
+}
+
+.commentText {
+    font-size: 22px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: normal;
+    font-style: normal;;
+    color: #555;
+    margin: 10px 0;
+}
+
+.commenterName {
+    font-size: 22px;
+    color: #DB7623;
+    font-family: 'Noto Sans Display',sans-serif;
+    font-weight: 600;
+}
+
+.followButton {
+    margin-top: 30px;
+    background-color: #7ec6bc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.followButton:hover, .followButton:hover .followText, .followButton:hover i {
+    background-color: #689c94;
+    color: #FFFFFF;
+}
+
+.followText {
+    color: #483729;
+    font-size: 16px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    letter-spacing: 1px;
+}
+.followButton i {
+    margin-right: 8px;
+    color: #483729;
+    font-size: 16px;
+}
+
+.arrowWrapper {
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.arrowWrapper i {
+    color: #483729;
+    font-size: 18px;
+}
+
+.arrowWrapper:hover, .arrowWrapper:hover i {
+    background-color: #483729;
+    color: #FFFFFF;
+}
+.mapImage {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -120px;
+    margin-left: -50px;
+}
+
+@media (max-width: 768px) {
+    .imageGrid {
+        grid-template-columns: 1fr;
+        max-width: 80%;
+    }
+
+    .communityImage {
+        display: none;
+    }
+
+    .communityImage:first-child {
+        display: block;
+    }
+}
